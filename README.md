@@ -18,10 +18,9 @@ Leia o enunciado completo no Canvas.
 
 ## Print da home page
 
-![Home page][def]
-[def]: public/homepage.png
+![homepage](https://github.com/user-attachments/assets/269eb826-8d55-4f08-9277-cbf79d060a90)
+
 
 ## Print da página de detalhes do item 1
 
-![Detalhes][def2]
-[def2]: public/detalhes.png
+![detalhes](https://github.com/user-attachments/assets/1142c0a6-4ac8-438f-991e-901bd4e36c6f)
