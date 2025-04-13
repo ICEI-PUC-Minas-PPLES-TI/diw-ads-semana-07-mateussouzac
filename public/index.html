@@ -1,60 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Notícias</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MG SPORTS - Início</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<script src="app.js"></script>
-<a href="detalhes.html?id=1">Ver Detalhes</a>
 <body>
-    <header class="cabecalho container">
-        <h1 class="text-center">MG SPORTS</h1>
-        <nav class="menu">
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Últimas Notícias</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Futebol Masculino</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Futebol Feminino</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main class="conteudo">
-        <section class="destaques">
-            <article class="noticia">
-                <h2>Notícias Futebol Feminino</h2>
-                <img src="crzfeminino.jpg" alt="Imagem da notícia" width="480px">
-                <p>Cruzeiro apresenta queixa à CBF sobre a arbitragem na semifinal da Supercopa. </p> Na partida contra o Corinthians, o Cruzeiro contestou a decisão da arbitragem de invalidar um gol por impedimento, aos 23 minutos do segundo tempo. O lance ocorreu durante a derrota do time mineiro por 1 a 0.
-            </article>
-        </section>
-        
-        <section class="ultimas-noticias">
-            <article class="noticia">
-                <h2>Futebol Mineiro</h2>
-                <img src="altcampeao.jpg" alt="Imagem da notícia" width="480px">
-                <p>Rubens Menin comemora título, almeja o heptacampeonato e considera o Atlético um dos ‘melhores do Brasil’.</p> Após a conquista do sexto título consecutivo do Campeonato Mineiro pelo Atlético, Rubens Menin, um dos principais investidores do clube, expressou sua alegria e já projetou o próximo objetivo: o heptacampeonato em 2026, um feito inédito na história do Galo.
-            </article>
-        </section>
-        
-        <section class="formulario">
-            <h2>Fique por dentro de tudo!</h2>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    
-    <footer class="rodape">
-        <p>&copy; 2025 Portal de Notícias. Todos os direitos reservados.</p>
-    </footer>
+  <header class="cabecalho">
+    <h1>MG SPORTS</h1>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#ultimas">Últimas Notícias</a></li>
+        <li><a href="#masculino">Futebol Masculino</a></li>
+        <li><a href="#feminino">Futebol Feminino</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="noticias"></section>
+  </main>
+  <footer class="rodape">
+    <p>&copy; 2025 Portal de Notícias. Todos os direitos reservados</p>
+  </footer>
+  <script src="app.js"></script>
 </body>
-</html> <section id="noticias"></section>
+</html>

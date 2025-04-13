@@ -12,15 +12,16 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Mateus Souza Campos
+- Matricula: 896645
+- Proposta de projeto escolhida: Página de noticias.
 
-## Print da versão responsiva com CSS puro
+## Print da home page
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Home page][def]
+[def]: public/homepage.png
 
-## Print da versão responsiva com Bootstrap
+## Print da página de detalhes do item 1
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Detalhes][def2]
+[def2]: public/detalhes.png
