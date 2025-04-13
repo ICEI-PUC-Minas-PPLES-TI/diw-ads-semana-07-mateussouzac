@@ -118,3 +118,34 @@ toggleTheme.addEventListener('click', () => {
         el.style.borderColor = modoEscuro ? '#444' : '#ddd';
     });
 });
+const noticias = [
+    {
+        id: 1,
+        titulo: "Título 1",
+        imagem: "crzfeminino.png",
+        resumo: "Resumo da notícia 1..."
+    },
+    {
+        id: 2,
+        titulo: "Título 2",
+        imagem: "img2.jpg",
+        resumo: "Resumo da notícia 2..."
+    }
+];
+function renderNoticias() {
+    const container = document.getElementById('noticias');
+    if (!container) return;
+
+    container.innerHTML = noticias.map(noticia => `
+        <div class="card">
+            <img src="${noticia.imagem}" alt="${noticia.titulo}">
+            <h2>${noticia.titulo}</h2>
+            <p>${noticia.resumo}</p>
+            <a href="detalhes.html?id=${noticia.id}">Ver mais</a>
+        </div>
+    `).join('');
+}
+
+renderNoticias();
+
+
