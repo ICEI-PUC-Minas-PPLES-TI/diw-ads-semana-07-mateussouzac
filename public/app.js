@@ -147,5 +147,26 @@ function renderNoticias() {
 }
 
 renderNoticias();
+function getParametroURL(nome) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(nome);
+}
+
+function renderDetalhes() {
+    const id = getParametroURL('id');
+    const noticia = noticias.find(n => n.id == id);
+
+    const container = document.getElementById('detalhe-noticia');
+    if (noticia && container) {
+        container.innerHTML = `
+            <h1>${noticia.titulo}</h1>
+            <img src="${noticia.imagem}" alt="${noticia.titulo}">
+            <p>${noticia.resumo}</p>
+        `;
+    }
+}
+
+renderDetalhes();
+
 
 
