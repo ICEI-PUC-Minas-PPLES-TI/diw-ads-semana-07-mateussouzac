@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.cabecalho {
+    background: #0415ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.conteudo {
+    padding: 25px;
+}
+
+.noticia {
+    border: 1px solid #ddd;
+    padding: 105px;
+    margin-bottom: 20px;
+}
+
+.noticia img {
+    max-width: 100%;
+    display: block;
+}
+
+.formulario {
+    background: #f4f4f4;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.formulario button {
+    background: #0415ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.rodape {
+    background: #0415ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
